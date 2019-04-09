@@ -1,0 +1,113 @@
+ant -f C:\\Users\\chris\\Desktop\\csci-325-spring-2018\\lab06 -Dnb.internal.action.name=run run
+init:
+Deleting: C:\Users\chris\Desktop\csci-325-spring-2018\lab06\build\built-jar.properties
+deps-jar:
+Updating property file: C:\Users\chris\Desktop\csci-325-spring-2018\lab06\build\built-jar.properties
+compile:
+run:
+Index:	0
+Book:	Genesis
+Verse:	1
+Note:	This is note one
+Index:	1
+Book:	Exodus
+Verse:	2
+Note:	This is note two
+Index:	2
+Book:	Deuteronomy
+Verse:	3
+Note:	This is note three
+Index:	3
+Book:	Judges
+Verse:	4
+Note:	This is note four
+Index:	4
+Book:	Judges
+Verse:	5
+Note:	This is note five
+Index:	5
+Book:	Judges
+Verse:	5
+Note:	This is note six
+Index:	6
+Book:	Judges
+Verse:	5
+Note:	This is note seven
+Index:	7
+Book:	Judges
+Verse:	5
+Note:	This is note eight
+Index:	8
+Book:	Exodus
+Verse:	5
+Note:	This is note nine
+Index:	9
+Book:	Exodus
+Verse:	5
+Note:	This is note ten
+Index:	10
+Book:	1 Chronicles
+Verse:	5
+Note:	This is note eleven
+Index:	11
+Book:	Psalm
+Verse:	6
+Note:	This is note twelve
+List size: 12
+csu.csci325.Qtime@6d06d69c
+getBookOfBible
+getDate
+getUserNotes
+getVerseRef
+Printing list pre- sorting:
+GenesisSat Mar 30 17:10:32 EDT 2019This is note one1
+ExodusSat Mar 30 17:10:32 EDT 2019This is note two2
+DeuteronomySat Mar 30 17:10:32 EDT 2019This is note three3
+JudgesSat Mar 30 17:10:32 EDT 2019This is note four4
+JudgesSat Mar 30 17:10:32 EDT 2019This is note five5
+JudgesSat Mar 30 17:10:32 EDT 2019This is note six5
+JudgesSat Mar 30 17:10:32 EDT 2019This is note seven5
+JudgesSat Mar 30 17:10:32 EDT 2019This is note eight5
+ExodusSat Mar 30 17:10:32 EDT 2019This is note nine5
+ExodusSat Mar 30 17:10:32 EDT 2019This is note ten5
+1 ChroniclesSat Mar 30 17:10:32 EDT 2019This is note eleven5
+PsalmSat Mar 30 17:10:32 EDT 2019This is note twelve6
+Printing list post sorting:
+1 ChroniclesSat Mar 30 17:10:32 EDT 2019This is note eleven5
+DeuteronomySat Mar 30 17:10:32 EDT 2019This is note three3
+ExodusSat Mar 30 17:10:32 EDT 2019This is note two2
+ExodusSat Mar 30 17:10:32 EDT 2019This is note nine5
+ExodusSat Mar 30 17:10:32 EDT 2019This is note ten5
+GenesisSat Mar 30 17:10:32 EDT 2019This is note one1
+JudgesSat Mar 30 17:10:32 EDT 2019This is note four4
+JudgesSat Mar 30 17:10:32 EDT 2019This is note five5
+JudgesSat Mar 30 17:10:32 EDT 2019This is note six5
+JudgesSat Mar 30 17:10:32 EDT 2019This is note seven5
+JudgesSat Mar 30 17:10:32 EDT 2019This is note eight5
+PsalmSat Mar 30 17:10:32 EDT 2019This is note twelve6
+Update user note for Exodus
+1 ChroniclesSat Mar 30 17:10:32 EDT 2019This is note eleven5
+DeuteronomySat Mar 30 17:10:32 EDT 2019This is note three3
+ExodusSat Mar 30 17:10:32 EDT 2019This is note two2
+ExodusSat Mar 30 17:10:32 EDT 2019This is note nine5
+ExodusSat Mar 30 17:10:32 EDT 2019This is note ten5
+GenesisSat Mar 30 17:10:32 EDT 2019This is note one1
+JudgesSat Mar 30 17:10:32 EDT 2019This is note four4
+JudgesSat Mar 30 17:10:32 EDT 2019This is note fiveUpdated Note 15
+JudgesSat Mar 30 17:10:32 EDT 2019This is note six5
+JudgesSat Mar 30 17:10:32 EDT 2019This is note seven5
+JudgesSat Mar 30 17:10:32 EDT 2019This is note eightUpdated Note 25
+PsalmSat Mar 30 17:10:32 EDT 2019This is note twelve6
+Comparing Deuteronomy to Judges:
+Output is:	-1
+Remove notes from Exodus
+1 ChroniclesSat Mar 30 17:10:32 EDT 2019This is note eleven5
+DeuteronomySat Mar 30 17:10:32 EDT 2019This is note three3
+GenesisSat Mar 30 17:10:32 EDT 2019This is note one1
+JudgesSat Mar 30 17:10:32 EDT 2019This is note four4
+JudgesSat Mar 30 17:10:32 EDT 2019This is note fiveUpdated Note 15
+JudgesSat Mar 30 17:10:32 EDT 2019This is note six5
+JudgesSat Mar 30 17:10:32 EDT 2019This is note seven5
+JudgesSat Mar 30 17:10:32 EDT 2019This is note eightUpdated Note 25
+PsalmSat Mar 30 17:10:32 EDT 2019This is note twelve6
+BUILD SUCCESSFUL (total time: 0 seconds)

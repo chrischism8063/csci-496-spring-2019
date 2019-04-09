@@ -1,0 +1,36 @@
+******************* PART 1 Qtime Test*********************
+JUnit version 4.12
+.getNoteList
+.getNoteListSize
+getNoteListSize-2
+.removeNotes
+.updateUserNote
+.sortNotes
+.setNote
+
+Time: 0.012
+
+OK (6 tests)
+
++ 50.000 pts of 50.000
+Total grade so far: 50.000
+******************* PART 2 Qtime Note Test*********************
+JUnit version 4.12
+.setUserNotes
+.compareTo
+compareTo - 2
+compareTo - 3
+.getVerseRef
+.getDate
+.getBookOfBible
+.getUserNotes
+.updateUserNotes
+
+Time: 0.012
+
+OK (7 tests)
+
++ 50.000 pts of 50.000
+Total grade so far: 100.000
+Auto-grader grade: 100.000
+*****************Finished lab06****************

@@ -89,16 +89,11 @@ bool Array<T>::remove(const int index)
 	//Checks for index to be in bounds
         if(index >= 0 && index < this->getLength())
         {
-                for(int i = index; i < this->getLength(); i++)
-                {
-                  /*
-                        if(i != this->getLength() - 1)
-                        {
-                          */
-                                this->mArray[i] = this->mArray[i + 1];
-                                returnValue = true;
-                      //  }
-                }
+          for(int i = index; i < this->getLength(); i++)
+          {
+            this->mArray[i] = this->mArray[i + 1];
+            returnValue = true;
+          }
         }
 	if(returnValue == true)
 		this->mSize = this->getLength()-1;
@@ -119,24 +114,6 @@ void Array<T>::displayObject()
 
 }
 
-
-//Used to print out the object as desired
-//NEED HELP GETTING THIS TO FUNCTION PROPERLY
-/*
-template <class T>
-ostream& Array<T>::operator<<(ostream &out, const Array<T> object)
-{
-  out << "Array Object{\n\tSize:\t" << object->getLength() << "\n\tArray{" << endl;
-
-  for(int i = 0; i < object->getLength(); i++)
-    out << "\t\t" << object->mArray[i] << endl;
-
-  out << "\t}\n}" << endl;
-
-  return out;
-}
-
-*/
 // Retrieves the element at position pos
 template <class T>
 T& Array<T>::operator[](const int pos)
